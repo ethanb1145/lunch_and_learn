@@ -3,6 +3,8 @@ require "rails_helper"
 RSpec.describe "Recipes API", type: :request do
   describe "GET /api/v1/recipes" do
     it "returns recipes for a specific country" do
+      WebMock.allow_net_connect!
+
       get "/api/v1/recipes", params: { country: "Thailand" }
 
       expect(response).to have_http_status(200)

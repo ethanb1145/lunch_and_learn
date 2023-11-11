@@ -1,0 +1,55 @@
+{
+  "data": {
+      "id": null,
+      "type": "learning_resource",
+      "attributes": {
+          "country": "estonia",
+          "video": {
+              "title": "A Super Quick History of Estonia",
+              "youtube_video_id": "pKhdxYGw83I"
+          },
+          "images": [
+              {
+                  "alt_tag": "White and Brown Concrete Building",
+                  "url": "https://www.pexels.com/photo/white-and-brown-concrete-building-1803860/"
+              },
+              {
+                  "alt_tag": "Photo of Castle Exterior",
+                  "url": "https://www.pexels.com/photo/photo-of-castle-exterior-3224113/"
+              },
+              {
+                  "alt_tag": "Body of Water",
+                  "url": "https://www.pexels.com/photo/body-of-water-2177955/"
+              },
+              {
+                  "alt_tag": "White and Brown Concrete Building",
+                  "url": "https://www.pexels.com/photo/white-and-brown-concrete-building-1803859/"
+              },
+              {
+                  "alt_tag": "White and Brown Concrete Building",
+                  "url": "https://www.pexels.com/photo/white-and-brown-concrete-building-1803858/"
+              },
+              {
+                  "alt_tag": "Brown Deer on Green Grass Field",
+                  "url": "https://www.pexels.com/photo/brown-deer-on-green-grass-field-3732496/"
+              },
+              {
+                  "alt_tag": "Low Angle Photo of High-rise Building",
+                  "url": "https://www.pexels.com/photo/low-angle-photo-of-high-rise-building-1140989/"
+              },
+              {
+                  "alt_tag": "",
+                  "url": "https://www.pexels.com/photo/facades-along-square-in-tallin-18864573/"
+              },
+              {
+                  "alt_tag": "Close Up Photo of Text on Brown Paper",
+                  "url": "https://www.pexels.com/photo/close-up-photo-of-text-on-brown-paper-6957221/"
+              },
+              {
+                  "alt_tag": "Man In Black Wetsuit",
+                  "url": "https://www.pexels.com/photo/man-in-black-wetsuit-1109078/"
+              }
+          ]
+      }
+  }
+}
