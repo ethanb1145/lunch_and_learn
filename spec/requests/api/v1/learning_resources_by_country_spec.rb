@@ -10,6 +10,8 @@ RSpec.describe "Learning Resources API", type: :request do
       expect(json_response["data"]).to be_an(Array)
       expect(json_response["data"]).to include("id, type, attributes")
       expect(json_response["data"].first["attributes"]).to include("country", "video", "images")
+      expect(json_response["data"].first["attributes"]["video"]).to include("title", "youtube_video_id")
+      expect(json_response["data"].first["attributes"]["images"].first).to include("alt_tag", "url")
     end
   end
 end
