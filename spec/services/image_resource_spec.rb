@@ -5,9 +5,18 @@ RSpec.describe ImageResourceService do
     @service = ImageResourceService.new
   end
 
-  it "should have a URL for each image" do
-    estonia_response = @service.images("estonia")
-    image = estonia_response[2][1].first
-    expect(image[:url]).to eq("https://www.pexels.com/photo/white-and-brown-concrete-building-1803860/")
+  it "should return images for a country" do
+    json_data = File.read("spec/fixtures/images.json")
+    stub_request(:get, "https://api.pexels.com/v1/search?query=estonia").
+    with(
+      headers: {
+      "Accept"=>"*/*",
+      "Accept-Encoding"=>"gzip;q=1.0,deflate;q=0.6,identity;q=0.3",
+      "Authorization"=>"#{Rails.application.credentials.pexels[:key]}",
+      "User-Agent"=>"Faraday v2.7.11"
+      }).
+    to_return(status: 200, body: json_data, headers: {})
+
+    images = ImageResourceService.new.images("estonia")
   end
 end

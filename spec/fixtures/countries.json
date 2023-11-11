@@ -1,0 +1,409 @@
+[
+  {
+      "name": {
+          "common": "Turks and Caicos Islands",
+          "official": "Turks and Caicos Islands",
+          "nativeName": {
+              "eng": {
+                  "official": "Turks and Caicos Islands",
+                  "common": "Turks and Caicos Islands"
+              }
+          }
+      },
+      "tld": [
+          ".tc"
+      ],
+      "cca2": "TC",
+      "ccn3": "796",
+      "cca3": "TCA",
+      "independent": false,
+      "status": "officially-assigned",
+      "unMember": false,
+      "currencies": {
+          "USD": {
+              "name": "United States dollar",
+              "symbol": "$"
+          }
+      },
+      "idd": {
+          "root": "+1",
+          "suffixes": [
+              "649"
+          ]
+      },
+      "capital": [
+          "Cockburn Town"
+      ],
+      "altSpellings": [
+          "TC"
+      ],
+      "region": "Americas",
+      "subregion": "Caribbean",
+      "languages": {
+          "eng": "English"
+      },
+      "translations": {
+          "ara": {
+              "official": "جزر توركس وكايكوس",
+              "common": "جزر توركس وكايكوس"
+          },
+          "bre": {
+              "official": "Inizi Turks ha Caicos",
+              "common": "Inizi Turks ha Caicos"
+          },
+          "ces": {
+              "official": "Turks a Caicos",
+              "common": "Turks a Caicos"
+          },
+          "cym": {
+              "official": "Turks and Caicos Islands",
+              "common": "Turks and Caicos Islands"
+          },
+          "deu": {
+              "official": "Turks und Caicos Inseln",
+              "common": "Turks-und Caicosinseln"
+          },
+          "est": {
+              "official": "Turksi ja Caicose saared",
+              "common": "Turks ja Caicos"
+          },
+          "fin": {
+              "official": "Turks-ja Caicossaaret",
+              "common": "Turks-ja Caicossaaret"
+          },
+          "fra": {
+              "official": "Îles Turques et Caïques",
+              "common": "Îles Turques-et-Caïques"
+          },
+          "hrv": {
+              "official": "Otoci Turks i Caicos",
+              "common": "Otoci Turks i Caicos"
+          },
+          "hun": {
+              "official": "Turks- és Caicos-szigetek",
+              "common": "Turks- és Caicos-szigetek"
+          },
+          "ita": {
+              "official": "Turks e Caicos",
+              "common": "Isole Turks e Caicos"
+          },
+          "jpn": {
+              "official": "タークス·カイコス諸島",
+              "common": "タークス・カイコス諸島"
+          },
+          "kor": {
+              "official": "터크스 케이커스 제도",
+              "common": "터크스 케이커스 제도"
+          },
+          "nld": {
+              "official": "Turks-en Caicoseilanden",
+              "common": "Turks-en Caicoseilanden"
+          },
+          "per": {
+              "official": "جزایر تورکس و کایکوس",
+              "common": "جزایر تورکس و کایکوس"
+          },
+          "pol": {
+              "official": "Turks i Caicos",
+              "common": "Turks i Caicos"
+          },
+          "por": {
+              "official": "Ilhas Turks e Caicos",
+              "common": "Ilhas Turks e Caicos"
+          },
+          "rus": {
+              "official": "Теркс и Кайкос острова",
+              "common": "Теркс и Кайкос"
+          },
+          "slk": {
+              "official": "Ostrovy Turks a Caicos",
+              "common": "Turks a Caicos"
+          },
+          "spa": {
+              "official": "Islas Turcas y Caicos",
+              "common": "Islas Turks y Caicos"
+          },
+          "srp": {
+              "official": "Острва Теркс и Кејкос",
+              "common": "Теркс и Кејкос"
+          },
+          "swe": {
+              "official": "Turks- och Caicosöarna",
+              "common": "Turks- och Caicosöarna"
+          },
+          "tur": {
+              "official": "Turks ve Caicos Adaları",
+              "common": "Turks ve Caicos Adaları"
+          },
+          "urd": {
+              "official": "جزائر کیکس و ترکیہ",
+              "common": "جزائر کیکس و ترکیہ"
+          },
+          "zho": {
+              "official": "特克斯和凯科斯群岛",
+              "common": "特克斯和凯科斯群岛"
+          }
+      },
+      "latlng": [
+          21.75,
+          -71.58333333
+      ],
+      "landlocked": false,
+      "area": 948.0,
+      "demonyms": {
+          "eng": {
+              "f": "Turks and Caicos Islander",
+              "m": "Turks and Caicos Islander"
+          }
+      },
+      "flag": "🇹🇨",
+      "maps": {
+          "googleMaps": "https://goo.gl/maps/R8VUDQfwZiFtvmyn8",
+          "openStreetMaps": "https://www.openstreetmap.org/relation/547479"
+      },
+      "population": 38718,
+      "fifa": "TCA",
+      "car": {
+          "signs": [
+              "GB"
+          ],
+          "side": "left"
+      },
+      "timezones": [
+          "UTC-04:00"
+      ],
+      "continents": [
+          "North America"
+      ],
+      "flags": {
+          "png": "https://flagcdn.com/w320/tc.png",
+          "svg": "https://flagcdn.com/tc.svg"
+      },
+      "coatOfArms": {},
+      "startOfWeek": "monday",
+      "capitalInfo": {
+          "latlng": [
+              21.46,
+              -71.14
+          ]
+      },
+      "postalCode": {
+          "format": "TKCA 1ZZ",
+          "regex": "^(TKCA 1ZZ)$"
+      }
+  },
+  {
+      "name": {
+          "common": "Nigeria",
+          "official": "Federal Republic of Nigeria",
+          "nativeName": {
+              "eng": {
+                  "official": "Federal Republic of Nigeria",
+                  "common": "Nigeria"
+              }
+          }
+      },
+      "tld": [
+          ".ng"
+      ],
+      "cca2": "NG",
+      "ccn3": "566",
+      "cca3": "NGA",
+      "cioc": "NGR",
+      "independent": true,
+      "status": "officially-assigned",
+      "unMember": true,
+      "currencies": {
+          "NGN": {
+              "name": "Nigerian naira",
+              "symbol": "₦"
+          }
+      },
+      "idd": {
+          "root": "+2",
+          "suffixes": [
+              "34"
+          ]
+      },
+      "capital": [
+          "Abuja"
+      ],
+      "altSpellings": [
+          "NG",
+          "Nijeriya",
+          "Naíjíríà",
+          "Federal Republic of Nigeria"
+      ],
+      "region": "Africa",
+      "subregion": "Western Africa",
+      "languages": {
+          "eng": "English"
+      },
+      "translations": {
+          "ara": {
+              "official": "جمهورية نيجيريا الاتحادية",
+              "common": "نيجيريا"
+          },
+          "bre": {
+              "official": "Republik Kevreadel Nigeria",
+              "common": "Nigeria"
+          },
+          "ces": {
+              "official": "Nigerijská federativní republika",
+              "common": "Nigérie"
+          },
+          "cym": {
+              "official": "Federal Republic of Nigeria",
+              "common": "Nigeria"
+          },
+          "deu": {
+              "official": "Bundesrepublik Nigeria",
+              "common": "Nigeria"
+          },
+          "est": {
+              "official": "Nigeeria Liitvabariik",
+              "common": "Nigeeria"
+          },
+          "fin": {
+              "official": "Nigerian liittotasavalta",
+              "common": "Nigeria"
+          },
+          "fra": {
+              "official": "République fédérale du Nigeria",
+              "common": "Nigéria"
+          },
+          "hrv": {
+              "official": "Savezna Republika Nigerija",
+              "common": "Nigerija"
+          },
+          "hun": {
+              "official": "Nigéria",
+              "common": "Nigéria"
+          },
+          "ita": {
+              "official": "Repubblica federale di Nigeria",
+              "common": "Nigeria"
+          },
+          "jpn": {
+              "official": "ナイジェリア連邦共和国",
+              "common": "ナイジェリア"
+          },
+          "kor": {
+              "official": "나이지리아 연방 공화국",
+              "common": "나이지리아"
+          },
+          "nld": {
+              "official": "Federale Republiek Nigeria",
+              "common": "Nigeria"
+          },
+          "per": {
+              "official": "جمهوری فدرال نیجریه",
+              "common": "نیجریه"
+          },
+          "pol": {
+              "official": "Federalna Republika Nigerii",
+              "common": "Nigeria"
+          },
+          "por": {
+              "official": "República Federal da Nigéria",
+              "common": "Nigéria"
+          },
+          "rus": {
+              "official": "Федеративная Республика Нигерия",
+              "common": "Нигерия"
+          },
+          "slk": {
+              "official": "Nigérijská federatívna republika",
+              "common": "Nigéria"
+          },
+          "spa": {
+              "official": "República Federal de Nigeria",
+              "common": "Nigeria"
+          },
+          "srp": {
+              "official": "Савезна Република Нигерија",
+              "common": "Нигерија "
+          },
+          "swe": {
+              "official": "Förbundsrepubliken Nigeria",
+              "common": "Nigeria"
+          },
+          "tur": {
+              "official": "Nijerya Federal Cumhuriyeti",
+              "common": "Nijerya"
+          },
+          "urd": {
+              "official": "وفاقی جمہوریہ نائجیریا",
+              "common": "نائجیریا"
+          },
+          "zho": {
+              "official": "尼日利亚联邦共和国",
+              "common": "尼日利亚"
+          }
+      },
+      "latlng": [
+          10.0,
+          8.0
+      ],
+      "landlocked": false,
+      "borders": [
+          "BEN",
+          "CMR",
+          "TCD",
+          "NER"
+      ],
+      "area": 923768.0,
+      "demonyms": {
+          "eng": {
+              "f": "Nigerian",
+              "m": "Nigerian"
+          },
+          "fra": {
+              "f": "Nigériane",
+              "m": "Nigérian"
+          }
+      },
+      "flag": "🇳🇬",
+      "maps": {
+          "googleMaps": "https://goo.gl/maps/LTn417qWwBPFszuV9",
+          "openStreetMaps": "https://www.openstreetmap.org/relation/192787"
+      },
+      "population": 206139587,
+      "gini": {
+          "2018": 35.1
+      },
+      "fifa": "NGA",
+      "car": {
+          "signs": [
+              "WAN"
+          ],
+          "side": "right"
+      },
+      "timezones": [
+          "UTC+01:00"
+      ],
+      "continents": [
+          "Africa"
+      ],
+      "flags": {
+          "png": "https://flagcdn.com/w320/ng.png",
+          "svg": "https://flagcdn.com/ng.svg",
+          "alt": "The flag of Nigeria is composed of three equal vertical bands of green, white and green."
+      },
+      "coatOfArms": {
+          "png": "https://mainfacts.com/media/images/coats_of_arms/ng.png",
+          "svg": "https://mainfacts.com/media/images/coats_of_arms/ng.svg"
+      },
+      "startOfWeek": "monday",
+      "capitalInfo": {
+          "latlng": [
+              9.08,
+              7.53
+          ]
+      },
+      "postalCode": {
+          "format": "######",
+          "regex": "^(\\d{6})$"
+      }
+  }
+]
