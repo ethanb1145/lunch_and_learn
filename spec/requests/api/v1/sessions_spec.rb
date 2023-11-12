@@ -35,7 +35,7 @@ RSpec.describe "User Sessions API", type: :request do
       data = JSON.parse(response.body)
 
       expect(data).to have_key("error")
-      expect(data["error"]).to eq("Credentials are bad.")
+      expect(data["error"]).to eq(["Credentials are bad."])
     end
   end
 end
