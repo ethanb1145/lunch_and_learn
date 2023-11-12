@@ -14,7 +14,7 @@ class Api::V1::SessionsController < ApplicationController
         }
       }, status: :created
     else
-      render json: { error: "Credentials are bad." }, status: 400
+      render json: { error: ["Credentials are bad."] }, status: 400
     end
   end
 end
