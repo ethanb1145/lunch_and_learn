@@ -11,4 +11,13 @@ class CountryService
   def countries
     get_url("/v3.1/all")
   end
+
+  def capital_coordinates(country_name)
+    country_data = country_by_name(country_name)
+    country_data[:latlng] if country_data
+  end
+
+  def country_by_name(country_name)
+    countries.find { |country| country[:name][:common] == country_name }
+  end
 end
