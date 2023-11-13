@@ -12,7 +12,7 @@ class VideoResourceService
 
   def video_resource(country)
     results = get_url("/youtube/v3/search?part=snippet&channelId=UCluQ5yInbeAkkeCndNnUhpw")
-    video = results[:items].find do |item|
+    video = results[:items]&.find do |item|
       item[:snippet][:title].downcase.include?(country.downcase)
     end
     
