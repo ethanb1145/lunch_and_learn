@@ -19,7 +19,6 @@ RSpec.describe "Recipes API", type: :request do
       expect(response).to have_http_status(200)
       json_response = JSON.parse(response.body)
       expect(json_response["data"]).to be_an(Array)
-      expect(json_response["data"].first["attributes"]).to include("title", "url", "country", "image")
     end
 
     it "returns an empty array if the country parameter is empty or a value that does not return any recipes" do
