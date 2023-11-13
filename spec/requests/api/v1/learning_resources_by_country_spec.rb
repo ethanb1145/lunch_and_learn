@@ -1,33 +1,22 @@
 require "rails_helper"
 
-RSpec.describe "Recipes API", type: :request do
-  describe "GET /api/v1/recipes" do
-    it "returns recipes for a specific country" do
+RSpec.describe "Learning Resources API", type: :request do
+  describe "GET /api/v1/learning_resources" do
+    it "returns learning resources for a specific country" do
       WebMock.allow_net_connect!
-
-      get "/api/v1/recipes", params: { country: "Thailand" }
-
-      expect(response).to have_http_status(200)
-      json_response = JSON.parse(response.body)
-      expect(json_response["data"]).to be_an(Array)
-      recipe = json_response["data"].first
-      expect(recipe["attributes"]).to include("title", "url", "country", "image")
-    end
-
-    it "returns recipes for a random country if none is provided" do
-      get "/api/v1/recipes"
+      
+      json_data = File.read("spec/fixtures/estonia.json")
+      stub_request(:get, "http://localhost:3000/api/v1/learning_resources?country=estonia").to_return(status: 200, body: json_data, headers: {})
+      
+      get "/api/v1/learning_resources", params: { country: "Estonia" }
 
       expect(response).to have_http_status(200)
       json_response = JSON.parse(response.body)
-      expect(json_response["data"]).to be_an(Array)
-    end
-
-    it "returns an empty array if the country parameter is empty or a value that does not return any recipes" do
-      get "/api/v1/recipes", params: { country: "#+==_-=-" }
-
-      expect(response).to have_http_status(200)
-      json_response = JSON.parse(response.body)
-      expect(json_response["data"]).to eq([])
+      
+      expect(json_response["data"]).to be_a(Hash)
+      data = json_response["data"]
+      expect(data).to include("id", "type", "attributes")
+      expect(data["attributes"]).to include("country", "video", "images")
     end
   end
 end
