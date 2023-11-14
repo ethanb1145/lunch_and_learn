@@ -7,12 +7,12 @@ class ResourcesFacade
     video_data = VideoResourceService.new.video_resource(@country)
     image_data = ImageResourceService.new.images(@country)
 
-    format_response(video_data, image_data)
+    serialize_resources(video_data, image_data)
   end
 
   private
 
-  def format_response(video_data, image_data)
+  def serialize_resources(video_data, image_data)
     {
       id: nil,
       type: "learning_resource",
